@@ -13,5 +13,5 @@ services:
       - ./mysql/scripts/:/docker-entrypoint-initdb.d/
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: mysql
+      MYSQL_DATABASE: todolist
       MYSQL_PASSWORD: root
